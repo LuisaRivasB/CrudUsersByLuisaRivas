@@ -1,0 +1,121 @@
+.App {
+    background-color: #adad;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.App-form{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0003;
+    backdrop-filter: blur(1.75px);
+    transform: scale(0);
+    transition: transform 200ms ease;
+}
+
+.App-form-visible {
+    transform: scale(1);
+}
+
+.App-card{
+    gap: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    borderradius: 1px;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 0 3rem 0 3rem;
+    flex-direction: column;
+    display: flex;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #adadadad
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300;
+}
+
+.form {
+    padding: 1.5em;
+    width:100%;
+    max-width: 325px;
+    background-color: white;
+    height: max-content;
+    border-radius: 3em 0 3em 0;
+    position: relative;
+}
+
+.form-close {
+    position: absolute;
+    right: 1.5em;
+    top: 1.2em;
+    font-size: 1.3rem;
+    background-color: red;
+    color: white;
+    cursor:pointer;
+}
+
+.form-close:hover {
+    transform: scale(1.3);
+}
+
+.from-title {
+    fonr-size: 2rem;
+    margin-bottom: 0.75em;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.275em;
+    margin-bottom: 1em;
+}
+
+.form-label {
+    color: rgb(54, 53, 53)
+    padding-left: 1em;
+}
+
+.form-input {
+    padding: 0.3em 0.75em;
+    font-family: inherit;
+}
+
+.form-btn {
+    width: 100%;
+    padding: 0.5em;
+    background-color: #555A88;
+    color: white;
+    cursor: pointer;
+}
+
+.App-btn-form {
+    width: 100px;
+    padding: 0.5em;
+    background-color: #555A88;
+    color: white;
+    cursor: pointer;
+    right: 1.5rem;
+    display: flex;
+    flex-direction: 
+}
+
+.card-btn {
+    background-color: #555a88;
+    color: white;
+}
+
